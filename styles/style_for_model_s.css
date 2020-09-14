@@ -1,0 +1,30 @@
+.hero {
+	background: black url(../images/model-s/hero-1.jpeg) center / cover;
+	
+}
+
+#bars{
+	display: none;
+}
+
+@media (max-width: 1024px) { 
+	.hero { background: black url(../images/model-s/hero-2.jpeg) center / cover;
+	}
+
+	#bars{
+		display: flex;
+    }
+    
+    /* #footer{
+        color: black;
+    } */
+}
+
+@media (max-width:  768px) { .hero { background: black url(../images/model-s/hero-3.jpg) center / cover; } }
+
+/* responsive */
+@media (max-width: 768px) {
+	:root {
+		font-size: 90%;
+	}
+}
